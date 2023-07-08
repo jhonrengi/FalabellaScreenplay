@@ -1,2 +1,16 @@
-package co.falabella.com.runners;public class addToCartProductRunner {
+package co.falabella.com.runners;
+
+
+import io.cucumber.junit.CucumberOptions;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.runner.RunWith;
+
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions(
+        features = "src/test/resources/features/addProductToCart.feature",
+        glue = "co.falabella.com.stepDefinitions",
+        snippets = CucumberOptions.SnippetType.CAMELCASE
+)
+
+public class AddToCartProductRunner {
 }

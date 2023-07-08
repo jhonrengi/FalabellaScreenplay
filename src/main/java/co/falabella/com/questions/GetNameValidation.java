@@ -1,18 +1,20 @@
 package co.falabella.com.questions;
 
+import co.falabella.com.interactions.GetCartItems;
+import co.falabella.com.interactions.GetName;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
 
-public class GetName implements Question <String> {
+public class GetNameValidation implements Question<Boolean> {
     @Override
-    public String answeredBy(Actor actor) {
-        String productSelName = GetName.get
+    public Boolean answeredBy(Actor actor) {
+        String productSelName = GetName.getNames(actor);
         String productNameCart = GetCartItems.produtName();
         return productSelName.contains(productNameCart);
     }
 
-    public static GetName from(){
-        return new GetName() ;
+    public static Question<Boolean> from(){
+        return new GetNameValidation() ;
     }
 }

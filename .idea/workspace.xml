@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7300acfd-f04f-418e-beee-4bafea1b738d" name="Changes" comment="" />
+    <list default="true" id="7300acfd-f04f-418e-beee-4bafea1b738d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/ClickRamdom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/ClickRamdom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/GetCartItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/GetCartItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/GetName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/GetName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/questions/GetNameValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/questions/GetNameValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/questions/GetQuantityValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/questions/GetQuantityValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/tasks/HomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/tasks/HomeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/tasks/ProductDetailsTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/tasks/ProductDetailsTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/tasks/ProductTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/tasks/ProductTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CartProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CartProductUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CatalogoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CatalogoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/HomeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/HomeUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/InformationCartUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/InformationCartUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ProductUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/utils/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/utils/Excel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/falabella/com/runners/AddToCartProductRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/runners/AddToCartProductRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AddToCartStepsDefiniton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AddToCartStepsDefiniton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/addProductToCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/addProductToCart.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +39,33 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Falabella" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -24,12 +75,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Falabella&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Falabella\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.falabella.com.utils" />
+      <recent name="co.falabella.com.questions" />
+      <recent name="co.falabella.com.interactions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AddToCartProductRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.falabella.com.runners.AddToCartProductRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AddToCartProductRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

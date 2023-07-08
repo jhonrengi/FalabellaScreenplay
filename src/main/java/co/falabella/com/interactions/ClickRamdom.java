@@ -1,4 +1,4 @@
-package com.librerianacional.interactions;
+package co.falabella.com.interactions;
 
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
@@ -8,8 +8,8 @@ import net.serenitybdd.screenplay.Performable;
 import java.util.List;
 import java.util.Random;
 
+import static co.falabella.com.ui.CatalogoUI.LBL_NAME_PRODUCT;
 
-import static com.librerianacional.ui.HomeUI1.LBL_NAME_PRODUCT;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class ClickRamdom implements Interaction {
@@ -23,7 +23,7 @@ public class ClickRamdom implements Interaction {
         Random random= new Random();
         int indexRandom= random.nextInt(listProducts.size());
 
-        String productName = listProducts.get(indexRandom).getText();
+        //String productName = listProducts.get(indexRandom).getText();
 
         listProducts.get(indexRandom).click();
 

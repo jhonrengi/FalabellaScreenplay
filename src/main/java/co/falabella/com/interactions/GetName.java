@@ -1,2 +1,23 @@
-package co.falabella.com.interactions;public class GetName {
+package co.falabella.com.interactions;
+
+import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.Interaction;
+
+
+import static co.falabella.com.ui.ProductUI.LBL_PRODUCT;
+
+
+public class GetName implements Interaction {
+
+    private static String productName;
+
+
+    @Override
+    public <T extends Actor> void performAs(T actor) {
+        productName = LBL_PRODUCT.resolveFor(actor).getText();
+        actor.remember("ProductName",productName);
+    }
+
+    public static GetName name(){ return  new GetName();}
+    public static String getNames(Actor actor ){ return actor.recall("ProductName");}
 }

@@ -1,2 +1,14 @@
-package co.falabella.com.ui;public class CatalogoUI {
+package co.falabella.com.ui;
+
+import net.serenitybdd.screenplay.targets.Target;
+
+public class CatalogoUI {
+
+
+
+    public static final Target LBL_NAME_PRODUCT = Target.the("products collection")
+            .locatedBy(" //img[contains(@class, 'jsx-1996933093')]");
+
+
+
 }
